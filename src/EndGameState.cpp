@@ -20,7 +20,7 @@ void EndGameState::draw(sf::RenderWindow &window) {
     // Uncomment and set up a font to display end game text on screen
     sf::Font font;
     if (!font.loadFromFile("C:\\Users\\84333\\projects\\Opencv_SFML_example\\src\\Eater-Regular.ttf")) {
-        std::cerr<<"Khong tai dc file";
+        std::cerr<<"Cant load file";
     }
     sf::Text endGameText("Game Over! Press Escape to exit.", font, 30);
     endGameText.setFillColor(sf::Color::Red);
