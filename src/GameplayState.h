@@ -9,6 +9,7 @@
 #include "FingerDetector.h"
 #include "Game.h"
 #include <opencv2/opencv.hpp>
+#include <SFML/Audio.hpp>
 
 class GameplayState : public State {
 public:
@@ -36,6 +37,8 @@ private:
     sf::Sprite webcamSprite_;
     PauseState pausestate_;
     bool isPause;
+    sf::SoundBuffer eating, death;
+    sf::Sound eatingSound, deathSound; 
 };
 
 #endif // GAMEPLAY_STATE_H

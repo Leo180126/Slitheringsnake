@@ -28,10 +28,24 @@ GameplayState::GameplayState(Game& game, sf::RenderWindow* window, int difficult
     food_ = std::make_unique<FoodSpawner>(field_.get(), game_.getTextures()[2].get());
 
     // Load background texture
-    if (!backgroundTexture_.loadFromFile("C:\\Users\\84333\\projects\\Opencv_SFML_example\\src\\background.png")) {
+    if (!backgroundTexture_.loadFromFile("C:\\Users\\84333\\projects\\Opencv_SFML_example\\src\\background.jpg")) {
         std::cerr << "Error: Could not load background texture" << std::endl;
     }
     backgroundSprite_.setTexture(backgroundTexture_);
+
+    // Init sound
+    sf::SoundBuffer eating;
+    if(!eating.loadFromFile("C:\\Users\\84333\\projects\\Opencv_SFML_example\\src\\eatingsound.mp3")){
+        std::cerr<<"Khong load duoc file tieng an";
+    }
+
+
+    sf::SoundBuffer death;
+    if(!death.loadFromFile("C:\\Users\\84333\\projects\\Opencv_SFML_example\\src\\die.mp3")){
+        std::cerr<<"Khong load duoc die efect";
+    }
+    sf::Sound deathSound;
+    deathSound.setBuffer(death);
 
 }
 
@@ -74,21 +88,20 @@ void GameplayState::update(sf::RenderWindow &window) {
             snake_->update(directionChosen_, food_->currentPos());
 
             if (snake_->isFoodEaten()) {
+                sf::Sound eatingSound;
+                eatingSound.setBuffer(eating);
+                eatingSound.play();
+
                 food_->respawn();
                 highScore_++;
                 window_->setTitle("SnakeGame | Score: " + std::to_string(highScore_));
-                // if (highScore_ + 3 == field_->tileSum()) {
-                //     std::cout<<highScore_<<' '<<field_->tileSum();
-                //     std::cout << "The end! You won..." << std::endl;
-                //     gameRunning_ = false;
-                //     game_.changeState(new EndGameState());
-                
             }
 
             if (snake_->isDead()) {
+                deathSound.play();
                 std::cout << "The end! You are dead..." << std::endl;
                 gameRunning_ = false;
-                game_.changeState(new EndGameState());
+                game_.changeState(new EndGameState(game_, *window_));
             }
         }
     }
@@ -104,8 +117,8 @@ void GameplayState::draw(sf::RenderWindow &window) {
         sf::View backgroud(sf::FloatRect(0, 0, window.getSize().x, window.getSize().y));
         
         // Set the viewport for each view
-        gameView.setViewport(sf::FloatRect(0.f, 0.3f, 0.7f, 0.7f));
-        webcamView.setViewport(sf::FloatRect(0.7f, 0.f, 0.5f, 0.5f));
+        gameView.setViewport(sf::FloatRect(0.f, 0.4f, 0.6f, 0.6f));
+        webcamView.setViewport(sf::FloatRect(0.6f, 0.f, 1.0f, 1.0f));
         //Draw the background
         
         // Draw the game scene
