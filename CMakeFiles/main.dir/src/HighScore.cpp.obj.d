@@ -98,8 +98,15 @@ CMakeFiles/main.dir/src/HighScore.cpp.obj: \
  C:/msys64/mingw64/include/c++/14.2.0/bits/uses_allocator.h \
  C:/msys64/mingw64/include/c++/14.2.0/bits/uses_allocator_args.h \
  C:/msys64/mingw64/include/c++/14.2.0/tuple \
- C:/msys64/mingw64/include/c++/14.2.0/fstream \
- C:/msys64/mingw64/include/c++/14.2.0/istream \
+ C:/msys64/mingw64/include/SFML/Graphics.hpp \
+ C:/msys64/mingw64/include/SFML/Window.hpp \
+ C:/msys64/mingw64/include/SFML/System.hpp \
+ C:/msys64/mingw64/include/SFML/Config.hpp \
+ C:/msys64/mingw64/include/SFML/System/Clock.hpp \
+ C:/msys64/mingw64/include/SFML/System/Export.hpp \
+ C:/msys64/mingw64/include/SFML/System/Time.hpp \
+ C:/msys64/mingw64/include/SFML/System/Err.hpp \
+ C:/msys64/mingw64/include/c++/14.2.0/ostream \
  C:/msys64/mingw64/include/c++/14.2.0/ios \
  C:/msys64/mingw64/include/c++/14.2.0/exception \
  C:/msys64/mingw64/include/c++/14.2.0/bits/exception_ptr.h \
@@ -139,11 +146,152 @@ CMakeFiles/main.dir/src/HighScore.cpp.obj: \
  C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
  C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets.tcc \
  C:/msys64/mingw64/include/c++/14.2.0/bits/basic_ios.tcc \
- C:/msys64/mingw64/include/c++/14.2.0/ostream \
  C:/msys64/mingw64/include/c++/14.2.0/bits/ostream.tcc \
- C:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
+ C:/msys64/mingw64/include/SFML/System/FileInputStream.hpp \
+ C:/msys64/mingw64/include/SFML/System/InputStream.hpp \
+ C:/msys64/mingw64/include/SFML/System/NonCopyable.hpp \
+ C:/msys64/mingw64/include/SFML/System/Lock.hpp \
+ C:/msys64/mingw64/include/SFML/System/MemoryInputStream.hpp \
+ C:/msys64/mingw64/include/SFML/System/Mutex.hpp \
+ C:/msys64/mingw64/include/SFML/System/Sleep.hpp \
+ C:/msys64/mingw64/include/SFML/System/String.hpp \
+ C:/msys64/mingw64/include/SFML/System/Utf.hpp \
+ C:/msys64/mingw64/include/c++/14.2.0/algorithm \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_algo.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/algorithmfwd.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_heap.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/uniform_int_dist.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_tempbuf.h \
+ C:/msys64/mingw64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
+ C:/msys64/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
+ C:/msys64/mingw64/include/c++/14.2.0/locale \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.h \
+ C:/msys64/mingw64/include/c++/14.2.0/ctime \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/time_members.h \
+ C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/messages_members.h \
  C:/msys64/mingw64/include/c++/14.2.0/bits/codecvt.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.tcc \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/locale_conv.h \
+ C:/msys64/mingw64/include/SFML/System/Utf.inl \
+ C:/msys64/mingw64/include/c++/14.2.0/iterator \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stream_iterator.h \
+ C:/msys64/mingw64/include/SFML/System/String.inl \
+ C:/msys64/mingw64/include/SFML/System/Thread.hpp \
+ C:/msys64/mingw64/include/SFML/System/Thread.inl \
+ C:/msys64/mingw64/include/SFML/System/ThreadLocal.hpp \
+ C:/msys64/mingw64/include/SFML/System/ThreadLocalPtr.hpp \
+ C:/msys64/mingw64/include/SFML/System/ThreadLocalPtr.inl \
+ C:/msys64/mingw64/include/SFML/System/Vector2.hpp \
+ C:/msys64/mingw64/include/SFML/System/Vector2.inl \
+ C:/msys64/mingw64/include/SFML/System/Vector3.hpp \
+ C:/msys64/mingw64/include/SFML/System/Vector3.inl \
+ C:/msys64/mingw64/include/SFML/Window/Clipboard.hpp \
+ C:/msys64/mingw64/include/SFML/Window/Export.hpp \
+ C:/msys64/mingw64/include/SFML/Window/Context.hpp \
+ C:/msys64/mingw64/include/SFML/Window/GlResource.hpp \
+ C:/msys64/mingw64/include/SFML/Window/ContextSettings.hpp \
+ C:/msys64/mingw64/include/SFML/Window/Cursor.hpp \
+ C:/msys64/mingw64/include/SFML/Window/Event.hpp \
+ C:/msys64/mingw64/include/SFML/Window/Joystick.hpp \
+ C:/msys64/mingw64/include/SFML/Window/Keyboard.hpp \
+ C:/msys64/mingw64/include/SFML/Window/Mouse.hpp \
+ C:/msys64/mingw64/include/SFML/Window/Sensor.hpp \
+ C:/msys64/mingw64/include/SFML/Window/Touch.hpp \
+ C:/msys64/mingw64/include/SFML/Window/VideoMode.hpp \
+ C:/msys64/mingw64/include/c++/14.2.0/vector \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_uninitialized.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_vector.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_bvector.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/vector.tcc \
+ C:/msys64/mingw64/include/SFML/Window/Window.hpp \
+ C:/msys64/mingw64/include/SFML/Window/WindowBase.hpp \
+ C:/msys64/mingw64/include/SFML/Window/Vulkan.hpp \
+ C:/msys64/mingw64/include/SFML/Window/WindowHandle.hpp \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
+ C:/msys64/mingw64/include/stdint.h \
+ C:/msys64/mingw64/include/SFML/Window/WindowStyle.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/BlendMode.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Export.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/CircleShape.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Shape.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Drawable.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/RenderStates.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Transform.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Rect.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Rect.inl \
+ C:/msys64/mingw64/include/SFML/Graphics/Transformable.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/VertexArray.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Vertex.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Color.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/PrimitiveType.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/ConvexShape.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Font.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Glyph.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Texture.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Image.hpp \
+ C:/msys64/mingw64/include/c++/14.2.0/map \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_tree.h \
+ C:/msys64/mingw64/include/c++/14.2.0/ext/aligned_buffer.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/node_handle.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_map.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_multimap.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/erase_if.h \
+ C:/msys64/mingw64/include/SFML/Graphics/RectangleShape.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/RenderTarget.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/View.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/RenderTexture.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/RenderWindow.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Shader.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Glsl.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Glsl.inl \
+ C:/msys64/mingw64/include/SFML/Graphics/Sprite.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/Text.hpp \
+ C:/msys64/mingw64/include/SFML/Graphics/VertexBuffer.hpp \
+ C:\Users\84333\projects\Opencv_SFML_example\src\Game.h \
+ C:/msys64/mingw64/include/SFML/Audio.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/InputSoundFile.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/Export.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/Listener.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/Music.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundStream.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundSource.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/AlResource.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/OutputSoundFile.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/Sound.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundBuffer.hpp \
+ C:/msys64/mingw64/include/c++/14.2.0/set \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_set.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_multiset.h \
+ C:/msys64/mingw64/include/SFML/Audio/SoundBufferRecorder.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundRecorder.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundFileFactory.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundFileFactory.inl \
+ C:/msys64/mingw64/include/SFML/Audio/SoundFileReader.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundFileWriter.hpp \
+ C:/msys64/mingw64/include/c++/14.2.0/memory \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/align.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/unique_ptr.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/shared_ptr.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/shared_ptr_base.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/allocated_ptr.h \
+ C:/msys64/mingw64/include/c++/14.2.0/ext/concurrence.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/shared_ptr_atomic.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/atomic_base.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
+ C:/msys64/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
+ C:/msys64/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
+ C:/msys64/mingw64/include/c++/14.2.0/array \
+ C:/msys64/mingw64/include/c++/14.2.0/compare \
+ C:\Users\84333\projects\Opencv_SFML_example\src\State.h \
+ C:\Users\84333\projects\Opencv_SFML_example\src\MenuState.h \
+ C:\Users\84333\projects\Opencv_SFML_example\src\Menu.h \
+ C:/msys64/mingw64/include/c++/14.2.0/fstream \
+ C:/msys64/mingw64/include/c++/14.2.0/istream \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
  C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/msys64/mingw64/include/c++/14.2.0/bits/fstream.tcc \
+ C:/msys64/mingw64/include/c++/14.2.0/sstream \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/sstream.tcc \
  C:/msys64/mingw64/include/c++/14.2.0/iostream

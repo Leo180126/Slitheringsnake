@@ -247,6 +247,26 @@ CMakeFiles/main.dir/src/MenuState.cpp.obj: \
  C:/msys64/mingw64/include/SFML/Graphics/VertexBuffer.hpp \
  C:\Users\84333\projects\Opencv_SFML_example\src\Menu.h \
  C:\Users\84333\projects\Opencv_SFML_example\src\Game.h \
+ C:/msys64/mingw64/include/SFML/Audio.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/InputSoundFile.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/Export.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/Listener.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/Music.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundStream.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundSource.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/AlResource.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/OutputSoundFile.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/Sound.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundBuffer.hpp \
+ C:/msys64/mingw64/include/c++/14.2.0/set \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_set.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_multiset.h \
+ C:/msys64/mingw64/include/SFML/Audio/SoundBufferRecorder.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundRecorder.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundFileFactory.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundFileFactory.inl \
+ C:/msys64/mingw64/include/SFML/Audio/SoundFileReader.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundFileWriter.hpp \
  C:/msys64/mingw64/include/c++/14.2.0/memory \
  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
  C:/msys64/mingw64/include/c++/14.2.0/bits/align.h \
@@ -377,9 +397,6 @@ CMakeFiles/main.dir/src/MenuState.cpp.obj: \
  C:/msys64/mingw64/include/opencv4/opencv2/flann/saving.h \
  C:/msys64/mingw64/include/opencv4/opencv2/flann/nn_index.h \
  C:/msys64/mingw64/include/opencv4/opencv2/flann/result_set.h \
- C:/msys64/mingw64/include/c++/14.2.0/set \
- C:/msys64/mingw64/include/c++/14.2.0/bits/stl_set.h \
- C:/msys64/mingw64/include/c++/14.2.0/bits/stl_multiset.h \
  C:/msys64/mingw64/include/opencv4/opencv2/flann/all_indices.h \
  C:/msys64/mingw64/include/opencv4/opencv2/flann/kdtree_index.h \
  C:/msys64/mingw64/include/opencv4/opencv2/flann/dynamic_bitset.h \
@@ -460,4 +477,5 @@ CMakeFiles/main.dir/src/MenuState.cpp.obj: \
  C:/msys64/mingw64/include/c++/14.2.0/numeric \
  C:/msys64/mingw64/include/c++/14.2.0/bits/stl_numeric.h \
  C:/msys64/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h \
- C:\Users\84333\projects\Opencv_SFML_example\src\FingerDetector.h
+ C:\Users\84333\projects\Opencv_SFML_example\src\FingerDetector.h \
+ C:\Users\84333\projects\Opencv_SFML_example\src\HighScore.h

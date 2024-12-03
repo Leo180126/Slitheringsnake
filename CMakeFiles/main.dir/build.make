@@ -353,7 +353,7 @@ main.exe: C:/msys64/mingw64/lib/libopencv_xobjdetect.dll.a
 main.exe: C:/msys64/mingw64/lib/libopencv_xphoto.dll.a
 main.exe: C:/msys64/mingw64/lib/libsfml-graphics.dll.a
 main.exe: C:/msys64/mingw64/lib/libsfml-window.dll.a
-main.exe: C:/msys64/mingw64/lib/libsfml-system.dll.a
+main.exe: C:/msys64/mingw64/lib/libsfml-audio.dll.a
 main.exe: C:/msys64/mingw64/lib/libopencv_shape.dll.a
 main.exe: C:/msys64/mingw64/lib/libopencv_highgui.dll.a
 main.exe: C:/msys64/mingw64/lib/libopencv_datasets.dll.a
@@ -374,6 +374,7 @@ main.exe: C:/msys64/mingw64/lib/libopencv_flann.dll.a
 main.exe: C:/msys64/mingw64/lib/libopencv_photo.dll.a
 main.exe: C:/msys64/mingw64/lib/libopencv_imgproc.dll.a
 main.exe: C:/msys64/mingw64/lib/libopencv_core.dll.a
+main.exe: C:/msys64/mingw64/lib/libsfml-system.dll.a
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt

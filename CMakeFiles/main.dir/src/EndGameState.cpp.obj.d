@@ -1,21 +1,12 @@
 CMakeFiles/main.dir/src/EndGameState.cpp.obj: \
  C:\Users\84333\projects\Opencv_SFML_example\src\EndGameState.cpp \
- C:\Users\84333\projects\Opencv_SFML_example\src\EndGameState.h \
- C:\Users\84333\projects\Opencv_SFML_example\src\State.h \
- C:/msys64/mingw64/include/SFML/Graphics.hpp \
- C:/msys64/mingw64/include/SFML/Window.hpp \
- C:/msys64/mingw64/include/SFML/System.hpp \
- C:/msys64/mingw64/include/SFML/Config.hpp \
- C:/msys64/mingw64/include/SFML/System/Clock.hpp \
- C:/msys64/mingw64/include/SFML/System/Export.hpp \
- C:/msys64/mingw64/include/SFML/System/Time.hpp \
- C:/msys64/mingw64/include/SFML/System/Err.hpp \
- C:/msys64/mingw64/include/c++/14.2.0/ostream \
+ C:/msys64/mingw64/include/c++/14.2.0/iostream \
  C:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/msys64/mingw64/include/c++/14.2.0/pstl/pstl_config.h \
+ C:/msys64/mingw64/include/c++/14.2.0/ostream \
  C:/msys64/mingw64/include/c++/14.2.0/ios \
  C:/msys64/mingw64/include/c++/14.2.0/iosfwd \
  C:/msys64/mingw64/include/c++/14.2.0/bits/stringfwd.h \
@@ -145,6 +136,30 @@ CMakeFiles/main.dir/src/EndGameState.cpp.obj: \
  C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets.tcc \
  C:/msys64/mingw64/include/c++/14.2.0/bits/basic_ios.tcc \
  C:/msys64/mingw64/include/c++/14.2.0/bits/ostream.tcc \
+ C:/msys64/mingw64/include/c++/14.2.0/istream \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc \
+ C:/msys64/mingw64/include/c++/14.2.0/thread \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/std_thread.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/unique_ptr.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/this_thread_sleep.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/chrono.h \
+ C:/msys64/mingw64/include/c++/14.2.0/ratio \
+ C:/msys64/mingw64/include/c++/14.2.0/cstdint \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
+ C:/msys64/mingw64/include/stdint.h \
+ C:/msys64/mingw64/include/c++/14.2.0/limits \
+ C:/msys64/mingw64/include/c++/14.2.0/ctime \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/parse_numbers.h \
+ C:\Users\84333\projects\Opencv_SFML_example\src\EndGameState.h \
+ C:\Users\84333\projects\Opencv_SFML_example\src\State.h \
+ C:/msys64/mingw64/include/SFML/Graphics.hpp \
+ C:/msys64/mingw64/include/SFML/Window.hpp \
+ C:/msys64/mingw64/include/SFML/System.hpp \
+ C:/msys64/mingw64/include/SFML/Config.hpp \
+ C:/msys64/mingw64/include/SFML/System/Clock.hpp \
+ C:/msys64/mingw64/include/SFML/System/Export.hpp \
+ C:/msys64/mingw64/include/SFML/System/Time.hpp \
+ C:/msys64/mingw64/include/SFML/System/Err.hpp \
  C:/msys64/mingw64/include/SFML/System/FileInputStream.hpp \
  C:/msys64/mingw64/include/SFML/System/InputStream.hpp \
  C:/msys64/mingw64/include/SFML/System/NonCopyable.hpp \
@@ -164,7 +179,6 @@ CMakeFiles/main.dir/src/EndGameState.cpp.obj: \
  C:/msys64/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
  C:/msys64/mingw64/include/c++/14.2.0/locale \
  C:/msys64/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.h \
- C:/msys64/mingw64/include/c++/14.2.0/ctime \
  C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/time_members.h \
  C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/messages_members.h \
  C:/msys64/mingw64/include/c++/14.2.0/bits/codecvt.h \
@@ -205,8 +219,6 @@ CMakeFiles/main.dir/src/EndGameState.cpp.obj: \
  C:/msys64/mingw64/include/SFML/Window/WindowBase.hpp \
  C:/msys64/mingw64/include/SFML/Window/Vulkan.hpp \
  C:/msys64/mingw64/include/SFML/Window/WindowHandle.hpp \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
- C:/msys64/mingw64/include/stdint.h \
  C:/msys64/mingw64/include/SFML/Window/WindowStyle.hpp \
  C:/msys64/mingw64/include/SFML/Graphics/BlendMode.hpp \
  C:/msys64/mingw64/include/SFML/Graphics/Export.hpp \
@@ -245,6 +257,44 @@ CMakeFiles/main.dir/src/EndGameState.cpp.obj: \
  C:/msys64/mingw64/include/SFML/Graphics/Sprite.hpp \
  C:/msys64/mingw64/include/SFML/Graphics/Text.hpp \
  C:/msys64/mingw64/include/SFML/Graphics/VertexBuffer.hpp \
- C:/msys64/mingw64/include/c++/14.2.0/iostream \
- C:/msys64/mingw64/include/c++/14.2.0/istream \
- C:/msys64/mingw64/include/c++/14.2.0/bits/istream.tcc
+ C:\Users\84333\projects\Opencv_SFML_example\src\HighScore.h \
+ C:\Users\84333\projects\Opencv_SFML_example\src\Game.h \
+ C:/msys64/mingw64/include/SFML/Audio.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/InputSoundFile.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/Export.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/Listener.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/Music.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundStream.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundSource.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/AlResource.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/OutputSoundFile.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/Sound.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundBuffer.hpp \
+ C:/msys64/mingw64/include/c++/14.2.0/set \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_set.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_multiset.h \
+ C:/msys64/mingw64/include/SFML/Audio/SoundBufferRecorder.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundRecorder.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundFileFactory.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundFileFactory.inl \
+ C:/msys64/mingw64/include/SFML/Audio/SoundFileReader.hpp \
+ C:/msys64/mingw64/include/SFML/Audio/SoundFileWriter.hpp \
+ C:/msys64/mingw64/include/c++/14.2.0/memory \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/align.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/shared_ptr.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/shared_ptr_base.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/allocated_ptr.h \
+ C:/msys64/mingw64/include/c++/14.2.0/ext/concurrence.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/shared_ptr_atomic.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/atomic_base.h \
+ C:/msys64/mingw64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
+ C:/msys64/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
+ C:/msys64/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
+ C:/msys64/mingw64/include/c++/14.2.0/array \
+ C:/msys64/mingw64/include/c++/14.2.0/compare \
+ C:\Users\84333\projects\Opencv_SFML_example\src\MenuState.h \
+ C:\Users\84333\projects\Opencv_SFML_example\src\Menu.h \
+ C:/msys64/mingw64/include/c++/14.2.0/cstring \
+ C:/msys64/mingw64/include/string.h \
+ C:/msys64/mingw64/include/sec_api/string_s.h

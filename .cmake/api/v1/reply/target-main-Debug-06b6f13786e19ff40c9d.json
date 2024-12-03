@@ -298,7 +298,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "C:\\msys64\\mingw64\\lib\\libsfml-system.dll.a",
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libsfml-audio.dll.a",
 				"role" : "libraries"
 			},
 			{
@@ -399,6 +399,11 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "C:\\msys64\\mingw64\\lib\\libopencv_core.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libsfml-system.dll.a",
 				"role" : "libraries"
 			},
 			{
