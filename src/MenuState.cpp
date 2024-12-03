@@ -1,5 +1,6 @@
 #include "MenuState.h"
 #include "GameplayState.h"
+#include "HighScore.h"
 
 MenuState::MenuState(Game& game, float width, float height)
     : game_(game), menu_(width, height), isMenuActive_(true), difficultyLevel_(0) {}
@@ -14,6 +15,7 @@ void MenuState::handleEvent(sf::RenderWindow &window, sf::Event &event) {
                     menu_.setState(Menu::DifficultyMenu); // Go to Difficulty Menu
                 } else if (selectedItem == 1) {
                     // Show High Scores (implement as needed)
+                    game_.changeState(new HighScoreState(game_));
                 } else if (selectedItem == 2) {
                     window.close(); // Exit
                 }

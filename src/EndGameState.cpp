@@ -1,7 +1,16 @@
 #include <iostream>
+#include <string>
+#include <thread>
 #include "EndGameState.h"
 
-EndGameState::EndGameState(Game &game, sf::RenderWindow &window_) : game_(game), window(window_){}
+EndGameState::EndGameState(Game &game, sf::RenderWindow &window_, int highScore_) : game_(game), window(window_), highScore(highScore_) {
+    if(!endSound_buffer.loadFromFile("C:\\Users\\84333\\projects\\Opencv_SFML_example\\src\\endgame.mp3")){
+        std::cerr<<"Khong load duoc end file";
+    }
+    endSound.setBuffer(endSound_buffer);
+    std::thread soundThread(&EndGameState::playSound, this, endSound);
+    soundThread.detach();
+}
 
 void EndGameState::handleEvent(sf::RenderWindow &window, sf::Event &event) {
     if (event.type == sf::Event::KeyPressed) {
@@ -19,13 +28,6 @@ void EndGameState::update(sf::RenderWindow &window) {
 }
 
 void EndGameState::draw(sf::RenderWindow &window) {
-    sf::SoundBuffer buffer;
-    if(!buffer.loadFromFile("C:\\Users\\84333\\projects\\Opencv_SFML_example\\src\\endgame.mp3")){
-        std::cerr<<"No r cac chau oi";
-    }
-    sf::Sound s;
-    s.setBuffer(buffer);
-    s.play();
     
     window.clear();
     // Optionally, display an "End Game" message
@@ -37,6 +39,9 @@ void EndGameState::draw(sf::RenderWindow &window) {
     sf::Text endGameText("Game Over! Press Escape to exit.", font, 30);
     sf::Text replayText("Press enter to replay",font,20);
     
+    
+    sf::Text pointText("High Score: " + std::to_string(highScore), font, 50);
+
     endGameText.setFillColor(sf::Color::Red);
     endGameText.setPosition(window.getSize().x / 2 - endGameText.getGlobalBounds().width / 2,
                            window.getSize().y / 2 - endGameText.getGlobalBounds().height / 2);
@@ -45,8 +50,22 @@ void EndGameState::draw(sf::RenderWindow &window) {
     replayText.setPosition(window.getSize().x / 2 - replayText.getGlobalBounds().width / 2,
                            window.getSize().y / 2 - replayText.getGlobalBounds().height / 2 + endGameText.getGlobalBounds().height );
 
+    pointText.setFillColor(sf::Color::Red);
+    pointText.setPosition(window.getSize().x / 2 - pointText.getGlobalBounds().width / 2,
+                           window.getSize().y / 2 - pointText.getGlobalBounds().height / 2 - endGameText.getGlobalBounds().height*2);
+
+
     window.setView(window.getDefaultView());
     window.draw(endGameText);
     window.draw(replayText);
+    window.draw(pointText);
     window.display();
+}
+
+void EndGameState::playSound(sf::Sound endSound)
+{
+    endSound.play();
+    while(endSound.getStatus() == sf::Sound::Playing){
+        sf::sleep(sf::milliseconds(100));
+    }
 }

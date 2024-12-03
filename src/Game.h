@@ -2,6 +2,7 @@
 #define SNAKE_GAME_GAME_H
 
 #include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 #include <memory>
 #include <array>
 #include "State.h"
@@ -15,6 +16,7 @@ public:
     void run();
     void changeState(State* newState);
     const std::array<std::unique_ptr<sf::Texture>, 3>& getTextures() const;
+    void playBgm();
 
 private:
     sf::RenderWindow* window_;

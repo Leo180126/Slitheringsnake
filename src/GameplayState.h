@@ -17,6 +17,7 @@ public:
     void handleEvent(sf::RenderWindow &window, sf::Event &event) override;
     void update(sf::RenderWindow &window) override;
     void draw(sf::RenderWindow &window) override;
+    void playSound(sf::Sound sound);
 
 private:
     Game& game_;
