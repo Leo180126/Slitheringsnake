@@ -27,6 +27,27 @@ Direction::Type Direction::fromFingertipPosition(cv::Point fingertip)
         }
     }
     return Direction::None;
+	// int x = fingertip.x;
+	// int y = fingertip.y;
+	// int dx = fingertip.x - previousX; // Assuming previousX and previousY are defined elsewhere
+	// int dy = fingertip.y - previousY; // and hold the previous position of the fingertip
+
+	// if (sqrt(dx * dx + dy * dy) >= movementThreshold) {
+	// 	if (abs(dx) > abs(dy)) {
+	// 		if (dx < 0) {
+	// 			return Direction::Left;
+	// 		} else {
+	// 			return Direction::Right;
+	// 		}
+	// 	} else {
+	// 		if (dy < 0) {
+	// 			return Direction::Up;
+	// 		} else {
+	// 			return Direction::Down;
+	// 		}
+	// 	}
+	// }
+	// return Direction::None;
 }
 
 Direction::Type Direction::opposite(Direction::Type dir)

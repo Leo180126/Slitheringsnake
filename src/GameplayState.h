@@ -9,6 +9,7 @@
 #include "FingerDetector.h"
 #include "Game.h"
 #include <opencv2/opencv.hpp>
+#include <SFML/Audio.hpp>
 
 class GameplayState : public State {
 public:
@@ -16,6 +17,7 @@ public:
     void handleEvent(sf::RenderWindow &window, sf::Event &event) override;
     void update(sf::RenderWindow &window) override;
     void draw(sf::RenderWindow &window) override;
+    void playSound(sf::Sound sound);
 
 private:
     Game& game_;
@@ -36,6 +38,8 @@ private:
     sf::Sprite webcamSprite_;
     PauseState pausestate_;
     bool isPause;
+    sf::SoundBuffer eating, death;
+    sf::Sound eatingSound, deathSound; 
 };
 
 #endif // GAMEPLAY_STATE_H

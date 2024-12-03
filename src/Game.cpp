@@ -57,8 +57,26 @@ const std::array<std::unique_ptr<sf::Texture>, 3>& Game::getTextures() const {
     return textures_;
 }
 
+void Game::playBgm()
+{
+    sf::Music backgroundMusic;
+    if (!backgroundMusic.openFromFile("C:\\Users\\84333\\projects\\Opencv_SFML_example\\src\\backgroundMusic.mp3")){
+        std::cerr<<"Khong mo duoc nhac nen";
+    }
+    backgroundMusic.setLoop(true);
+    backgroundMusic.play();
+}
+
 void Game::run()
 {
+    sf::Music backgroundMusic;
+    if (!backgroundMusic.openFromFile("C:\\Users\\84333\\projects\\Opencv_SFML_example\\src\\backgroundMusic.mp3")){
+        std::cerr<<"Khong mo duoc nhac nen";
+    }
+    backgroundMusic.setLoop(true);
+    backgroundMusic.play();
+    // std::thread backgroundMusicThread(&Game::playBgm, this);
+    // backgroundMusicThread.detach();
     while (window_->isOpen())
     {
         sf::Event event;

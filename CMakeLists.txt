@@ -9,5 +9,5 @@ file(GLOB_RECURSE SOURCES src/*.cpp)
 
 add_executable(main ${SOURCES})
 
-target_link_libraries(main ${OpenCV_LIBS} sfml-graphics sfml-window sfml-system)
+target_link_libraries(main ${OpenCV_LIBS} sfml-graphics sfml-window sfml-system sfml-audio)
 target_include_directories(main PUBLIC ${OpenCV_INCLUDE_DIRS})

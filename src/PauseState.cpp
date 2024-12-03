@@ -6,7 +6,7 @@ PauseState::PauseState() {
         std::cerr << "Error: Could not load font" << std::endl;
     }
 
-    if(!back.loadFromFile("C:\\Users\\84333\\projects\\Opencv_SFML_example\\src\\background.png")){
+    if(!back.loadFromFile("C:\\Users\\84333\\projects\\Opencv_SFML_example\\src\\background.jpg")){
         std::cerr<<"Khong load duoc file";
     }
     back_.setTexture(back);
