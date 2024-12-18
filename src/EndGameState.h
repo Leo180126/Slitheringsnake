@@ -18,10 +18,9 @@ public:
     void playSound(sf::Sound endSound);
 private:
     Game& game_;
-    sf::RenderWindow &window;
-    int highScore;
+    int Score;
     sf::SoundBuffer endSound_buffer;
     sf::Sound endSound;
 };
 
-#endif // END_GAME_STATE_H
+#endif 

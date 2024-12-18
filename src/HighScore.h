@@ -10,7 +10,6 @@ class HighScoreState : public State{
     public:
         HighScoreState(Game& game);
         static void saveHighScore(const std::string& filename,int score);
-        void loadScore();
         void handleEvent(sf::RenderWindow &window, sf::Event &event) override;
         void update(sf::RenderWindow &window) override;
         void draw(sf::RenderWindow &window) override;

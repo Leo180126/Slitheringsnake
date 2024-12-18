@@ -4,7 +4,7 @@
 
 int main()
 {
-    sf::VideoMode videoMode(1280,960); // Window size
+    sf::VideoMode videoMode(1280,960); // Khai báo cửa sổ 
     std::string windowTitle = "Slithering Snake";
     auto windowStyles = sf::Style::Titlebar | sf::Style::Close;
 

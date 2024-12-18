@@ -75,8 +75,7 @@ void Game::run()
     }
     backgroundMusic.setLoop(true);
     backgroundMusic.play();
-    // std::thread backgroundMusicThread(&Game::playBgm, this);
-    // backgroundMusicThread.detach();
+    
     while (window_->isOpen())
     {
         sf::Event event;

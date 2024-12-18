@@ -10,11 +10,10 @@ Snake::Snake(GameField* field, sf::Texture* textures, float speed)
 
     timer_ = sf::Clock();
 
-    // Generate random positions for the head, body, and tail segments
     int maxX = field_->width() - 1;
     int maxY = field_->height() - 1;
 
-    int headX = std::rand() % (maxX - 2) + 1; // Ensure there is space for body and tail
+    int headX = std::rand() % (maxX - 2) + 1;
     int headY = std::rand() % maxY;
 
     int bodyX = headX - 1;

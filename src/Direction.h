@@ -16,7 +16,6 @@ public:
 	};
 
 	// Convert SFML key to direction
-	// static Direction::Type fromSfmlKey(sf::Keyboard::Key key);
 	static Direction::Type fromFingertipPosition(cv::Point fingertip);
 	// Get opposite direction
 	static Direction::Type opposite(Direction::Type dir);
