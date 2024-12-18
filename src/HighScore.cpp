@@ -51,7 +51,7 @@ void HighScoreState::draw(sf::RenderWindow &window)
     window.clear();
 
     sf::Font font;
-    if (!font.loadFromFile("C:\\Users\\84333\\projects\\Opencv_SFML_example\\src\\Eater-Regular.ttf")) {
+    if (!font.loadFromFile("C:\\Users\\84333\\projects\\Opencv_SFML_example\\src\\Jaro-Regular-VariableFont_opsz.ttf")) {
         std::cerr << "Can't load font file" << std::endl;
     }
 

@@ -10,7 +10,7 @@ void MenuState::handleEvent(sf::RenderWindow &window, sf::Event &event) {
         if (event.key.code >= sf::Keyboard::Num1 && event.key.code <= sf::Keyboard::Num3) {
             int selectedItem = event.key.code - sf::Keyboard::Num1;
             if (menu_.getState() == Menu::MainMenu) {
-                menu_.selectItem(selectedItem);
+                // menu_.selectItem(selectedItem);
                 if (selectedItem == 0) {
                     menu_.setState(Menu::DifficultyMenu); // Go to Difficulty Menu
                 } else if (selectedItem == 1) {
@@ -20,7 +20,7 @@ void MenuState::handleEvent(sf::RenderWindow &window, sf::Event &event) {
                     window.close(); // Exit
                 }
             } else if (menu_.getState() == Menu::DifficultyMenu) {
-                menu_.selectItem(selectedItem);
+                // menu_.selectItem(selectedItem);
                 difficultyLevel_ = selectedItem; // Set difficulty level
                 isMenuActive_ = false; // Start Game
             }
